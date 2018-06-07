@@ -300,6 +300,16 @@ static NSString *const kMEGeotrackingIdentifier = @"kMEGeotrackingIdentifier";
 
 }
 
+- (void)removeAllGeofences {
+    
+    for (CLRegion *region in [[[[self class] sharedInstance] locationManager]monitoredRegions]) {
+        
+        if (![region.identifier isEqualToString:kMEGeotrackingIdentifier]) {
+            [[[[self class] sharedInstance] locationManager]stopMonitoringForRegion:region];
+        }
+    }
+}
+
 # pragma mark - Setters
 
 - (void)setGeofenceTrackingJumpMeters:(CGFloat)geofenceTrackingJumpMeters {

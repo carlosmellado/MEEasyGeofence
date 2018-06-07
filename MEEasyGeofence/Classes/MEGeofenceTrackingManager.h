@@ -115,6 +115,7 @@
  */
 - (CLLocation*)getCurrentLocation;
 
+- (void)removeAllGeofences;
 //- (void)manualCheck;
 
 @end
