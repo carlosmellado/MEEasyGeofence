@@ -1,0 +1,16 @@
+PODS:
+  - MEEasyGeofence (0.1.0)
+
+DEPENDENCIES:
+  - MEEasyGeofence (from `../`)
+
+EXTERNAL SOURCES:
+  MEEasyGeofence:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MEEasyGeofence: 901063ccec320f1c23db70a6c11c00e065d931da
+
+PODFILE CHECKSUM: 39c7fc732a9de462b709868d9dbb03dfdee3c9a1
+
+COCOAPODS: 1.4.0

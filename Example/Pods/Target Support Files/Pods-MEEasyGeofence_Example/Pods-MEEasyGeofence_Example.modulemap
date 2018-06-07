@@ -1,0 +1,6 @@
+framework module Pods_MEEasyGeofence_Example {
+  umbrella header "Pods-MEEasyGeofence_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

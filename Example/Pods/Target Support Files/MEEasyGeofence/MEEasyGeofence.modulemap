@@ -1,0 +1,6 @@
+framework module MEEasyGeofence {
+  umbrella header "MEEasyGeofence-umbrella.h"
+
+  export *
+  module * { export * }
+}

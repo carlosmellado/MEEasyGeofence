@@ -1,0 +1,22 @@
+{
+  "name": "MEEasyGeofence",
+  "version": "0.1.0",
+  "summary": "MEEasyGeofencing is a library to bring geofence features on iOS easily",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Carlosmellado/MEEasyGeofence",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Carlos Mellado": "carlosmelladoa@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Carlosmellado/MEEasyGeofence.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MEEasyGeofence/Classes/**/*"
+}

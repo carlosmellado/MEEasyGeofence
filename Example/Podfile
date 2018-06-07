@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MEEasyGeofence_Example' do
+  pod 'MEEasyGeofence', :path => '../'
+
+  target 'MEEasyGeofence_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

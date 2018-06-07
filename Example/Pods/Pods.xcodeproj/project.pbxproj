@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169A7B6E9508584417E73C2742FF4AAF /* Pods-MEEasyGeofence_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A9903A8AE1BAA9F879D21F7F4807DE /* Pods-MEEasyGeofence_Tests-dummy.m */; };
+		39798FBDC8C6E0E900E2175CC24706E4 /* MEGeofenceTrackingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A2F31DF70E48522A171E5C1AFD07FE /* MEGeofenceTrackingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFBC618074CB64F554FBDA736CE0D7D /* Pods-MEEasyGeofence_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC75136647D79612005C362782D13BA /* Pods-MEEasyGeofence_Example-dummy.m */; };
+		42FF09867A93165BCA53F350BA2A12B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		954FCC9DB2290B662C817221024C1D9E /* MEGeofenceTrackingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C12EF39998958F793276F2C9CAA90D4C /* MEGeofenceTrackingManager.m */; };
+		A8055052C2752C3803DD43F9033FCE8E /* Pods-MEEasyGeofence_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5D7727A1E0D06C081FBF1B9F49915C /* Pods-MEEasyGeofence_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2EE3FCEF0F4C95F88198BF73913DB51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D6CF6DC450E6ED652CADE254BCCD66A8 /* MEEasyGeofence-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C203FFBBAAF7444C60C899E309075F2E /* MEEasyGeofence-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C93F6B1B6BFCFD3F399EDA911BB92D /* MEEasyGeofence-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9316849FBD64F9CF8414C78371050B7 /* MEEasyGeofence-dummy.m */; };
+		DF8E14C2C257719DFE30721CE78EB5F5 /* Pods-MEEasyGeofence_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5C7C4F5E8D287A3DF21CEFB0C1C8EE /* Pods-MEEasyGeofence_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA440D00C663E6029A6D3D506A2A1A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A78EC438765E5AA5FD47FDC3D0E58A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5FD889885A4E1158BF2BA86ED6A2F1;
+			remoteInfo = MEEasyGeofence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F1E04543A401D7570FB8EB5EBA48F0 /* Pods-MEEasyGeofence_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEEasyGeofence_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0926BF265BED46766E85B9076761B442 /* MEEasyGeofence.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEEasyGeofence.xcconfig; sourceTree = "<group>"; };
+		0F83FD7179EC43E08E57EDBE8792995E /* Pods-MEEasyGeofence_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEEasyGeofence_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3ECBCC95358D5F385BF2780C1086CDD5 /* Pods-MEEasyGeofence_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEEasyGeofence_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		405DE0340C0CF375EDC0DA0AC6EB686D /* Pods-MEEasyGeofence_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MEEasyGeofence_Tests.modulemap"; sourceTree = "<group>"; };
+		4860247BB47D4227C1FACFDA336CE7D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B3C466F8121972388237050CE0CEFB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD5F0378AFE27FE0B1C05CADA8E7EBE /* Pods-MEEasyGeofence_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEEasyGeofence_Example.release.xcconfig"; sourceTree = "<group>"; };
+		52204907DDBAB1228E2462CE4B275534 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC75136647D79612005C362782D13BA /* Pods-MEEasyGeofence_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEEasyGeofence_Example-dummy.m"; sourceTree = "<group>"; };
+		61C68F60CF4630E4F9A1C008F105F7C2 /* Pods-MEEasyGeofence_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEEasyGeofence_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AC7CF9FA78004CD3C634043D1F090E9 /* Pods_MEEasyGeofence_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MEEasyGeofence_Tests.framework; path = "Pods-MEEasyGeofence_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B18C4D5678650C78C3C5F6DA5AC3C27 /* Pods-MEEasyGeofence_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEEasyGeofence_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70803FCB7B437E6976420539F5121054 /* Pods-MEEasyGeofence_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEEasyGeofence_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76A9903A8AE1BAA9F879D21F7F4807DE /* Pods-MEEasyGeofence_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEEasyGeofence_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D5D7727A1E0D06C081FBF1B9F49915C /* Pods-MEEasyGeofence_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MEEasyGeofence_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7DAE4578DDA896A753D62C494D201B72 /* Pods_MEEasyGeofence_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MEEasyGeofence_Example.framework; path = "Pods-MEEasyGeofence_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A2F31DF70E48522A171E5C1AFD07FE /* MEGeofenceTrackingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGeofenceTrackingManager.h; path = MEEasyGeofence/Classes/MEGeofenceTrackingManager.h; sourceTree = "<group>"; };
+		8A5C7C4F5E8D287A3DF21CEFB0C1C8EE /* Pods-MEEasyGeofence_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MEEasyGeofence_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B6514052CA0AFEB4169D16B02BD2E55 /* Pods-MEEasyGeofence_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEEasyGeofence_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A07C86D714AE83E25CC2729287380B68 /* Pods-MEEasyGeofence_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEEasyGeofence_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC1266F93B17586AF4A4E25D2C58EAC7 /* MEEasyGeofence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MEEasyGeofence.framework; path = MEEasyGeofence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28AD9314CB40D0E1FDABDA33560A609 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C9789FAF3CD78C0E92CBC4E9A0E5BE /* Pods-MEEasyGeofence_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEEasyGeofence_Example-resources.sh"; sourceTree = "<group>"; };
+		B9316849FBD64F9CF8414C78371050B7 /* MEEasyGeofence-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEEasyGeofence-dummy.m"; sourceTree = "<group>"; };
+		B993CB4A2B3D17C566D762F07FFDC74A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD056EE4517042994F10B9BBBE871EAB /* MEEasyGeofence-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEEasyGeofence-prefix.pch"; sourceTree = "<group>"; };
+		C127BD85EF5C04B1FACC1B7533E3918A /* Pods-MEEasyGeofence_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEEasyGeofence_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C12EF39998958F793276F2C9CAA90D4C /* MEGeofenceTrackingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGeofenceTrackingManager.m; path = MEEasyGeofence/Classes/MEGeofenceTrackingManager.m; sourceTree = "<group>"; };
+		C203FFBBAAF7444C60C899E309075F2E /* MEEasyGeofence-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEEasyGeofence-umbrella.h"; sourceTree = "<group>"; };
+		CF566F5F59547C72633134AB3807E027 /* Pods-MEEasyGeofence_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MEEasyGeofence_Example.modulemap"; sourceTree = "<group>"; };
+		D83C98B92D80FED29C27BD33B72BFABD /* Pods-MEEasyGeofence_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEEasyGeofence_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE1923A6D5593D98199A1A79174D60A4 /* MEEasyGeofence.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MEEasyGeofence.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F50494B3A70590EC7A804EDF221C5E57 /* MEEasyGeofence.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MEEasyGeofence.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		675C86DD5D28B8D884934BD8890AB6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FF09867A93165BCA53F350BA2A12B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A550D77EB0920AB1BEE59BAA543BADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA440D00C663E6029A6D3D506A2A1A89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79067932DBADBBC340E7786ACA08DBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EE3FCEF0F4C95F88198BF73913DB51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20DFF3B8187A3F92FF0E9148A0193C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1266F93B17586AF4A4E25D2C58EAC7 /* MEEasyGeofence.framework */,
+				7DAE4578DDA896A753D62C494D201B72 /* Pods_MEEasyGeofence_Example.framework */,
+				6AC7CF9FA78004CD3C634043D1F090E9 /* Pods_MEEasyGeofence_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D796597285C93A44A57850CEA64211 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B993CB4A2B3D17C566D762F07FFDC74A /* LICENSE */,
+				EE1923A6D5593D98199A1A79174D60A4 /* MEEasyGeofence.podspec */,
+				4860247BB47D4227C1FACFDA336CE7D8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		62159F3486C5D62D4848DDA732FB6A36 /* Pods-MEEasyGeofence_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C466F8121972388237050CE0CEFB2 /* Info.plist */,
+				405DE0340C0CF375EDC0DA0AC6EB686D /* Pods-MEEasyGeofence_Tests.modulemap */,
+				70803FCB7B437E6976420539F5121054 /* Pods-MEEasyGeofence_Tests-acknowledgements.markdown */,
+				3ECBCC95358D5F385BF2780C1086CDD5 /* Pods-MEEasyGeofence_Tests-acknowledgements.plist */,
+				76A9903A8AE1BAA9F879D21F7F4807DE /* Pods-MEEasyGeofence_Tests-dummy.m */,
+				9B6514052CA0AFEB4169D16B02BD2E55 /* Pods-MEEasyGeofence_Tests-frameworks.sh */,
+				61C68F60CF4630E4F9A1C008F105F7C2 /* Pods-MEEasyGeofence_Tests-resources.sh */,
+				7D5D7727A1E0D06C081FBF1B9F49915C /* Pods-MEEasyGeofence_Tests-umbrella.h */,
+				04F1E04543A401D7570FB8EB5EBA48F0 /* Pods-MEEasyGeofence_Tests.debug.xcconfig */,
+				6B18C4D5678650C78C3C5F6DA5AC3C27 /* Pods-MEEasyGeofence_Tests.release.xcconfig */,
+			);
+			name = "Pods-MEEasyGeofence_Tests";
+			path = "Target Support Files/Pods-MEEasyGeofence_Tests";
+			sourceTree = "<group>";
+		};
+		63843184953EEC3EAB8ECCA9F97120B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52204907DDBAB1228E2462CE4B275534 /* Info.plist */,
+				F50494B3A70590EC7A804EDF221C5E57 /* MEEasyGeofence.modulemap */,
+				0926BF265BED46766E85B9076761B442 /* MEEasyGeofence.xcconfig */,
+				B9316849FBD64F9CF8414C78371050B7 /* MEEasyGeofence-dummy.m */,
+				BD056EE4517042994F10B9BBBE871EAB /* MEEasyGeofence-prefix.pch */,
+				C203FFBBAAF7444C60C899E309075F2E /* MEEasyGeofence-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MEEasyGeofence";
+			sourceTree = "<group>";
+		};
+		737D2FA44E37F972531AA8107538E765 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED067546A7C0265F340F46693CAE3417 /* Pods-MEEasyGeofence_Example */,
+				62159F3486C5D62D4848DDA732FB6A36 /* Pods-MEEasyGeofence_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EB7EB24F97575395426EBEF187392D7D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				20DFF3B8187A3F92FF0E9148A0193C48 /* Products */,
+				737D2FA44E37F972531AA8107538E765 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85BAD42B0DB4D68A5936278BD28AB557 /* MEEasyGeofence */ = {
+			isa = PBXGroup;
+			children = (
+				89A2F31DF70E48522A171E5C1AFD07FE /* MEGeofenceTrackingManager.h */,
+				C12EF39998958F793276F2C9CAA90D4C /* MEGeofenceTrackingManager.m */,
+				23D796597285C93A44A57850CEA64211 /* Pod */,
+				63843184953EEC3EAB8ECCA9F97120B2 /* Support Files */,
+			);
+			name = MEEasyGeofence;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB7EB24F97575395426EBEF187392D7D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85BAD42B0DB4D68A5936278BD28AB557 /* MEEasyGeofence */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ED067546A7C0265F340F46693CAE3417 /* Pods-MEEasyGeofence_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B28AD9314CB40D0E1FDABDA33560A609 /* Info.plist */,
+				CF566F5F59547C72633134AB3807E027 /* Pods-MEEasyGeofence_Example.modulemap */,
+				C127BD85EF5C04B1FACC1B7533E3918A /* Pods-MEEasyGeofence_Example-acknowledgements.markdown */,
+				A07C86D714AE83E25CC2729287380B68 /* Pods-MEEasyGeofence_Example-acknowledgements.plist */,
+				5FC75136647D79612005C362782D13BA /* Pods-MEEasyGeofence_Example-dummy.m */,
+				D83C98B92D80FED29C27BD33B72BFABD /* Pods-MEEasyGeofence_Example-frameworks.sh */,
+				B3C9789FAF3CD78C0E92CBC4E9A0E5BE /* Pods-MEEasyGeofence_Example-resources.sh */,
+				8A5C7C4F5E8D287A3DF21CEFB0C1C8EE /* Pods-MEEasyGeofence_Example-umbrella.h */,
+				0F83FD7179EC43E08E57EDBE8792995E /* Pods-MEEasyGeofence_Example.debug.xcconfig */,
+				4BD5F0378AFE27FE0B1C05CADA8E7EBE /* Pods-MEEasyGeofence_Example.release.xcconfig */,
+			);
+			name = "Pods-MEEasyGeofence_Example";
+			path = "Target Support Files/Pods-MEEasyGeofence_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33333B85639E06B8B26CDEE64A81B008 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8E14C2C257719DFE30721CE78EB5F5 /* Pods-MEEasyGeofence_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911A4401F82A09A77123E1AFD5529291 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CF6DC450E6ED652CADE254BCCD66A8 /* MEEasyGeofence-umbrella.h in Headers */,
+				39798FBDC8C6E0E900E2175CC24706E4 /* MEGeofenceTrackingManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6613F1EDFAC16B0846DBC793EFD612 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8055052C2752C3803DD43F9033FCE8E /* Pods-MEEasyGeofence_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		334EAFC5D502B2BBA968F42C204F5AF7 /* Pods-MEEasyGeofence_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D594CCE8CD4250F334E8DB72839301 /* Build configuration list for PBXNativeTarget "Pods-MEEasyGeofence_Tests" */;
+			buildPhases = (
+				30DF0D6C1D5602A36EE3EE33E0CF6F5E /* Sources */,
+				6A550D77EB0920AB1BEE59BAA543BADE /* Frameworks */,
+				FE6613F1EDFAC16B0846DBC793EFD612 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MEEasyGeofence_Tests";
+			productName = "Pods-MEEasyGeofence_Tests";
+			productReference = 6AC7CF9FA78004CD3C634043D1F090E9 /* Pods_MEEasyGeofence_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		614D0D12C42141BAEC79F6B570111616 /* Pods-MEEasyGeofence_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF6212456750DA69C6F4ACA56ED1596 /* Build configuration list for PBXNativeTarget "Pods-MEEasyGeofence_Example" */;
+			buildPhases = (
+				1F9ED86D660F05B468B567665FF78D52 /* Sources */,
+				79067932DBADBBC340E7786ACA08DBC4 /* Frameworks */,
+				33333B85639E06B8B26CDEE64A81B008 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A458D89CB36896D771A515B4CDF0A84 /* PBXTargetDependency */,
+			);
+			name = "Pods-MEEasyGeofence_Example";
+			productName = "Pods-MEEasyGeofence_Example";
+			productReference = 7DAE4578DDA896A753D62C494D201B72 /* Pods_MEEasyGeofence_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB5FD889885A4E1158BF2BA86ED6A2F1 /* MEEasyGeofence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB82E0FD50DF85BF2BFA38491597C687 /* Build configuration list for PBXNativeTarget "MEEasyGeofence" */;
+			buildPhases = (
+				CFF91FA537EFC57744A93DB5DC209C0C /* Sources */,
+				675C86DD5D28B8D884934BD8890AB6AA /* Frameworks */,
+				911A4401F82A09A77123E1AFD5529291 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEEasyGeofence;
+			productName = MEEasyGeofence;
+			productReference = AC1266F93B17586AF4A4E25D2C58EAC7 /* MEEasyGeofence.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 20DFF3B8187A3F92FF0E9148A0193C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5FD889885A4E1158BF2BA86ED6A2F1 /* MEEasyGeofence */,
+				614D0D12C42141BAEC79F6B570111616 /* Pods-MEEasyGeofence_Example */,
+				334EAFC5D502B2BBA968F42C204F5AF7 /* Pods-MEEasyGeofence_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9ED86D660F05B468B567665FF78D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFBC618074CB64F554FBDA736CE0D7D /* Pods-MEEasyGeofence_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DF0D6C1D5602A36EE3EE33E0CF6F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169A7B6E9508584417E73C2742FF4AAF /* Pods-MEEasyGeofence_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF91FA537EFC57744A93DB5DC209C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C93F6B1B6BFCFD3F399EDA911BB92D /* MEEasyGeofence-dummy.m in Sources */,
+				954FCC9DB2290B662C817221024C1D9E /* MEGeofenceTrackingManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A458D89CB36896D771A515B4CDF0A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MEEasyGeofence;
+			target = AB5FD889885A4E1158BF2BA86ED6A2F1 /* MEEasyGeofence */;
+			targetProxy = 2A78EC438765E5AA5FD47FDC3D0E58A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B1F8AAD958ECCF8192D7C48A660F09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0926BF265BED46766E85B9076761B442 /* MEEasyGeofence.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MEEasyGeofence/MEEasyGeofence-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MEEasyGeofence/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MEEasyGeofence/MEEasyGeofence.modulemap";
+				PRODUCT_NAME = MEEasyGeofence;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A82E284CC2FFBA195E7B9F375866DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F83FD7179EC43E08E57EDBE8792995E /* Pods-MEEasyGeofence_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEEasyGeofence_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEEasyGeofence_Example/Pods-MEEasyGeofence_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MEEasyGeofence_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5488CB6E2E784B498CDF0DE27D80B91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD5F0378AFE27FE0B1C05CADA8E7EBE /* Pods-MEEasyGeofence_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEEasyGeofence_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEEasyGeofence_Example/Pods-MEEasyGeofence_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MEEasyGeofence_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		733B2D5819DC12C071C9AD3E1674A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B18C4D5678650C78C3C5F6DA5AC3C27 /* Pods-MEEasyGeofence_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEEasyGeofence_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEEasyGeofence_Tests/Pods-MEEasyGeofence_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MEEasyGeofence_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4ADD3B69A0D2B17A96A3C6BA28997E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0926BF265BED46766E85B9076761B442 /* MEEasyGeofence.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MEEasyGeofence/MEEasyGeofence-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MEEasyGeofence/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MEEasyGeofence/MEEasyGeofence.modulemap";
+				PRODUCT_NAME = MEEasyGeofence;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBD06093EFF9A8456FDF1C970189841E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F1E04543A401D7570FB8EB5EBA48F0 /* Pods-MEEasyGeofence_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MEEasyGeofence_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MEEasyGeofence_Tests/Pods-MEEasyGeofence_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MEEasyGeofence_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF6212456750DA69C6F4ACA56ED1596 /* Build configuration list for PBXNativeTarget "Pods-MEEasyGeofence_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A82E284CC2FFBA195E7B9F375866DB4 /* Debug */,
+				5488CB6E2E784B498CDF0DE27D80B91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D594CCE8CD4250F334E8DB72839301 /* Build configuration list for PBXNativeTarget "Pods-MEEasyGeofence_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD06093EFF9A8456FDF1C970189841E /* Debug */,
+				733B2D5819DC12C071C9AD3E1674A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB82E0FD50DF85BF2BFA38491597C687 /* Build configuration list for PBXNativeTarget "MEEasyGeofence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1F8AAD958ECCF8192D7C48A660F09D /* Debug */,
+				B4ADD3B69A0D2B17A96A3C6BA28997E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
