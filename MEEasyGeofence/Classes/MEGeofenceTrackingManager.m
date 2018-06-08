@@ -218,7 +218,7 @@ static NSString *const kMEGeotrackingIdentifier = @"kMEGeotrackingIdentifier";
     else {
         
         if ([self.delegate respondsToSelector:@selector(geofenceTrackerDidExitOnGeofencedRegion:)]) {
-            [self.delegate respondsToSelector:@selector(geofenceTrackerDidExitOnGeofencedRegion:)];
+            [self.delegate geofenceTrackerDidExitOnGeofencedRegion:region];
         }
     }
 }
